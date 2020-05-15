@@ -9,8 +9,8 @@ const { User } = require("./models/User");
 app.use(bodyParser.urlencoded({ extended: true }));
 //application/x-www-form-urlencoded 이런 데이터를 분석(parsing)해서 가져옴
 
-app.use(bodyParser.json());
 //application/json 타입의 데이터를 분석해서 가져옴
+app.use(bodyParser.json());
 app.use(cookieParser());
 
 const mongoose = require("mongoose");
@@ -100,7 +100,6 @@ app.get("/api/users/logout", auth, (req, res) => {
 });
 
 const port = 5000;
-
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );

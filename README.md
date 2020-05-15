@@ -29,3 +29,8 @@ Proxy 미들웨어를 설치해서 포트넘버가 다를 시에도 Cross Origin
 2. 캐쉬를 이용해 더 빠른 인터넷 이용 제공
 3. 더 나은 보안 제공
 4. 이용 제한된 사이트 접근 가능
+
+## 항상 에러 로그를 잘봐야한다
+
+이번에도 폴더 구성변경할 때 pakage.json 에서 node index.js를 node server/index.js로 바꿔야 했는데 에러 로그를 자세히 보지 않고 뭐가 문제인지 코드를 쭉 훑어보다가 시간을 많이 낭비했다...
+그런데 Error: Cannot find module '/Users/maegpeule/Documents/boiler-plate/index.js' 라고 떡하니 나와있었다...ㅎㅎ 반성하자
