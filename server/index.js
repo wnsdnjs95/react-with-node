@@ -24,8 +24,6 @@ mongoose
   .then(() => console.log('MongoDB Connected..'))
   .catch((err) => console.log(err));
 
-app.get('/', (req, res) => res.send('Hello World! 안녕하세요!!'));
-
 //회원가입 기능 만들기
 app.post('/api/users/register', (req, res) => {
   // 회원가입 할 때 필요한 정보들을 client에서 가져오면
