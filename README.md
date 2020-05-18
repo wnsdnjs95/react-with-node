@@ -21,7 +21,12 @@ Webpack은 웹사이트가 커짐에 따라 복합적인 라이브러리들이 �
 
 react 에서는 페이지 이동을 할 때 react-router-dom 이라는 라이브러리를 사용한다.
 
+## 여러가지 명령어들
+
+서버 종료하는 법 ctrl + c
+./program 현재 디렉토리에 있는 program 실행
 React 주석처리 {/\* \*/}
+<br />
 
 Proxy 미들웨어를 설치해서 포트넘버가 다를 시에도 Cross Origin Resource Sharing(CORS) 정책 보안과 상관없이 포트를 넘나들수 있게 설정
 <br />
